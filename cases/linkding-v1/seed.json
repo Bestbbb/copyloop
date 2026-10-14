@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1-draft",
+  "dataset_id": "copyloop-linkding-synthetic-001",
+  "synthetic": true,
+  "sort": "created_at_desc",
+  "bookmarks": [
+    {"id": "b01", "url": "http://fixtures.copyloop.test/01", "title": "CSS Grid field notes", "description": "A practical guide to CSS layouts.", "tags": ["design", "web"], "created_at": "2026-01-01T09:00:00Z"},
+    {"id": "b02", "url": "http://fixtures.copyloop.test/02", "title": "TypeScript patterns", "description": "Typed data models for local tools.", "tags": ["development", "web"], "created_at": "2026-01-02T09:00:00Z"},
+    {"id": "b03", "url": "http://fixtures.copyloop.test/03", "title": "Reading workflow", "description": "Notes on organizing research papers.", "tags": ["research", "reading"], "created_at": "2026-01-03T09:00:00Z"},
+    {"id": "b04", "url": "http://fixtures.copyloop.test/04", "title": "Motion and CSS", "description": "Small transitions with clear feedback.", "tags": ["design", "web"], "created_at": "2026-01-04T09:00:00Z"},
+    {"id": "b05", "url": "http://fixtures.copyloop.test/05", "title": "浏览器测试笔记", "description": "独立检查页面中的真实结果。", "tags": ["development", "research"], "created_at": "2026-01-05T09:00:00Z"},
+    {"id": "b06", "url": "http://fixtures.copyloop.test/06", "title": "Local storage checklist", "description": "Reopen the browser and inspect saved records.", "tags": ["development"], "created_at": "2026-01-06T09:00:00Z"},
+    {"id": "b07", "url": "http://fixtures.copyloop.test/07", "title": "A quiet interface", "description": "Typography and readable controls.", "tags": ["design"], "created_at": "2026-01-07T09:00:00Z"},
+    {"id": "b08", "url": "http://fixtures.copyloop.test/08", "title": "复现记录 🙂", "description": "保留失败样例与版本信息。", "tags": ["research"], "created_at": "2026-01-08T09:00:00Z"},
+    {"id": "b09", "url": "http://fixtures.copyloop.test/09", "title": "Keyboard navigation", "description": "Focus, tab order, and form submission.", "tags": ["accessibility", "web"], "created_at": "2026-01-09T09:00:00Z"},
+    {"id": "b10", "url": "http://fixtures.copyloop.test/10", "title": "A long title for checking line wrapping in a narrow bookmark list without covering the edit and delete controls", "description": "A synthetic layout stress record.", "tags": ["design", "accessibility"], "created_at": "2026-01-10T09:00:00Z"},
+    {"id": "b11", "url": "http://fixtures.copyloop.test/11", "title": "Offline reading queue", "description": "A small reading list for the weekend.", "tags": ["reading"], "created_at": "2026-01-11T09:00:00Z"},
+    {"id": "b12", "url": "http://fixtures.copyloop.test/12", "title": "CSS form layout", "description": "Labels, errors, and consistent spacing.", "tags": ["design", "web"], "created_at": "2026-01-12T09:00:00Z"}
+  ]
+}

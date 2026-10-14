@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1-draft",
+  "case_id": "linkding-v1",
+  "status": "specified_not_implemented",
+  "reference": {
+    "repository": "https://github.com/sissbruecker/linkding",
+    "tag": "v1.47.0",
+    "commit": "24b5ad6cc9bde497b5d1b1e86aed5a2fb7d25c2f",
+    "license": "MIT",
+    "runtime_digest": null,
+    "execution": "isolated_local_instance"
+  },
+  "generator_access_mode": "browser_observation_only",
+  "generator_may_read_reference_source": false,
+  "seed_file": "seed.json",
+  "candidate": {
+    "framework": "React + Vite",
+    "storage": "IndexedDB",
+    "delivery": "independent_local_web_project"
+  },
+  "environment": {
+    "browser": "Chromium",
+    "browser_revision": null,
+    "node_major": 24,
+    "locale": "en-US",
+    "timezone": "UTC",
+    "color_scheme": "light",
+    "reduced_motion": "no-preference",
+    "device_scale_factor": 1,
+    "viewports": [
+      {"name": "desktop", "width": 1440, "height": 900},
+      {"name": "mobile_size", "width": 390, "height": 844}
+    ]
+  },
+  "core_journeys": ["J01", "J02", "J03", "J04", "J05", "J06", "J07", "J08", "J09", "J10"],
+  "holdout_categories": ["H01", "H02", "H03", "H04"],
+  "repetitions_per_viewport": 3,
+  "core_execution_count": 60,
+  "holdout_execution_count": 24,
+  "independence_execution_count": 20,
+  "visual_states": ["list", "search_results", "empty_results", "tag_filter", "create_form", "edit_form"],
+  "visual_checkpoint_count": 12,
+  "visual": {
+    "algorithm": "pixelmatch",
+    "threshold": 0.1,
+    "include_aa": false,
+    "max_changed_ratio": 0.01,
+    "max_region_changed_ratio": 0.02,
+    "max_reference_self_diff_ratio": 0.002,
+    "max_layout_delta_css_px": 4,
+    "max_declared_mask_area_ratio": 0.01
+  },
+  "motion_observation_targets": ["tag_suggestions", "notes_disclosure", "focus_and_validation_feedback"],
+  "motion": {
+    "sampling_target_hz": 60,
+    "max_sample_interval_p95_ms": 25,
+    "max_sample_gap_ms": 50,
+    "duration_absolute_tolerance_ms": 33,
+    "duration_relative_tolerance": 0.1,
+    "duration_tolerance_rule": "max(absolute, reference_duration * relative)",
+    "max_position_delta_css_px": 4,
+    "max_opacity_delta": 0.05,
+    "disable_animations_during_motion_capture": false
+  },
+  "budget": {
+    "initial_generation_attempts": 1,
+    "max_repair_rounds": 3,
+    "max_agent_active_minutes": 120,
+    "automatic_paid_model_calls": false
+  },
+  "required_gates": ["G0", "G1", "G2", "G3", "G4", "G5", "G6", "G7"],
+  "gate_status": "not_run",
+  "spec": "../../docs/MVP_SPEC.zh-CN.md",
+  "case_document": "../../docs/CASE_001_LINKDING.zh-CN.md",
+  "acceptance_contract": "../../docs/ACCEPTANCE.zh-CN.md"
+}
